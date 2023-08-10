@@ -4,41 +4,46 @@
     <meta charset="UTF-8" />
     <title>yasmine cv</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
-    <div>
+    <div class="first">
       <a href="#home">Home</a>&nbsp <a href="about.htm">About</a>&nbsp
       <a href="contact.html">Contact</a>&nbsp
       <a href="resume.html">Resume</a>&nbsp
       <a href="work.html">Work</a>
     </div>
-
+<div id="h1">
     <h1>yasmine benabda</h1>
-    <img src="yass.png" alt="amouna" width="300" height="300" />
-
-    <h2>Informations personnelles</h2>
-    <p>Nom : benabdayasmine</p>
-    <p>Âge : 22 ans</p>
-    <p>Email : yasminebenabda14@gmail.com</p>
-    <p>Téléphone : 20120513</p>
-
+    <img  src="yass.png" alt="amouna" width="300" height="300" />
+    </div>
+<div class="info">
+    <h2 class="info">Informations personnelles</h2>
+    <p id="nom">Nom : benabdayasmine</p>
+    <p id="age">Âge : 22 ans</p>
+    <p id="email">Email : yasminebenabda14@gmail.com</p>
+    <p id="tel">Téléphone : 20120513</p>
+</div>
+<div class="exper">
     <h2>Expérience professionnelle</h2>
-    <p>Titre du poste : Développeur web</p>
-    <p>Entreprise : GOMYCODE</p>
-    <p>Période : Janvier 2023- Présent</p>
-    <p>
+    <p id="t">Titre du poste : Développeur web</p>
+    <p id="e">Entreprise : GOMYCODE</p>
+    <p id="p">Période : Janvier 2023- Présent</p>
+    <p id="des">
       Description des tâches : Lorem ipsum dolor sit amet, consectetur
       adipiscing elit. Sed euismod, lorem vel posuere convallis, lectus lorem
       dictum ex, ut efficitur libero mauris eget velit.
     </p>
-
+</div>
+<div class="for">
     <h2>Formation académique</h2>
-    <p>Diplôme : Licence en informatique</p>
-    <p>Établissement : Université XYZ</p>
-    <p>Période : Septembre 2014 - Juin 2017</p>
-
+    <p id="d">Diplôme : Licence en informatique</p>
+    <p id="a">Établissement : Université XYZ</p>
+    <p id="per">Période : Septembre 2014 - Juin 2017</p>
+</div>
+<div class="com">
     <h2>Compétences</h2>
-    <ul>
+    <ul id="lang">
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
@@ -46,11 +51,13 @@
       <li>Communication</li>
       <li>Résolution de problèmes</li>
     </ul>
-
+</div>
+<div class="cen">
     <h2>Centres d'intérêt</h2>
-    <p>Photographie,sport</p>
-
-    <h2>Contact</h2>
+    <p id="s">sport, Photographie</p>
+</div>
+<div>
+    <h2 class="contact">Contact</h2>
     <form action="/envoyer_message" method="post">
       <label for="nom">Nom :</label>
       <input type="text" id="nom" name="nom" required />
@@ -73,5 +80,6 @@
         allowfullscreen
       ></iframe>
     </form>
+  </div>
   </body>
 </html>

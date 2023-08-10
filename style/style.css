@@ -1,0 +1,90 @@
+h1 {
+    text-shadow: 5px 5px 5px blueviolet;
+    font-style: italic;
+    color:blueviolet;
+}
+h2 {
+    text-shadow: 5px 5px 5px palevioletred;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+#nom {
+    color:palevioletred;
+}
+#age {
+    color: palevioletred;
+}
+#email {
+    color:palevioletred;
+}
+#tel {
+    color:palevioletred;
+}
+#t {
+    color: orangered;
+}
+#e {
+    color: orangered;
+}
+#p {
+    color:orangered ;
+}
+#des {
+    color: plum;
+} 
+#d {
+    color: green;
+}
+#a {
+    color: green;
+}
+#per {
+    color: green;
+}
+#lang {
+    color: blue;
+
+}
+#s {
+    color: greenyellow;
+}
+.first {
+    text-align: center;
+    background-color: bisque;
+}
+.info {
+    text-align: center;
+    background-color: bisque;
+}
+.exper {
+    text-align: center;
+    background-color: bisque;
+}
+.exper {
+    text-align: center;
+    background-color: bisque;
+}
+.for {
+    text-align: center;
+    background-color: bisque;
+}
+.com {
+    text-align: center;
+    background-color: bisque;
+}
+.cen {
+    text-align: center;
+    background-color: bisque;
+}
+body {
+    background-image:url("back.jpg") ;
+}
+#img 
+{
+    text-align: center;
+}
+#h1 {
+    text-align: center;
+}
+
